@@ -1,0 +1,414 @@
+#:schema https://raw.githubusercontent.com/rvben/rumdl/refs/heads/main/rumdl.schema.json
+# rumdl configuration file
+# <https://github.com/rvben/rumdl#configuration>
+
+# Global configuration options
+# <https://github.com/rvben/rumdl/blob/main/docs/global-settings.md>
+[global]
+# List of rules to enable exclusively
+# <https://github.com/rvben/rumdl/blob/main/docs/global-settings.md#enable>
+enable = [
+	# Heading increment
+	# <https://github.com/rvben/rumdl/blob/main/docs/md001.md>
+	"MD001",
+	# Heading style
+	# <https://github.com/rvben/rumdl/blob/main/docs/md003.md>
+	"MD003",
+	# UL style
+	# <https://github.com/rvben/rumdl/blob/main/docs/md004.md>
+	"MD004",
+	# List indent
+	# <https://github.com/rvben/rumdl/blob/main/docs/md005.md>
+	"MD005",
+	# UL indent
+	# <https://github.com/rvben/rumdl/blob/main/docs/md007.md>
+	"MD007",
+	# No trailing spaces
+	# <https://github.com/rvben/rumdl/blob/main/docs/md009.md>
+	"MD009",
+	# No hard tabs
+	# <https://github.com/rvben/rumdl/blob/main/docs/md010.md>
+	"MD010",
+	# Reversed link
+	# <https://github.com/rvben/rumdl/blob/main/docs/md011.md>
+	"MD011",
+	# No multiple blanks
+	# <https://github.com/rvben/rumdl/blob/main/docs/md012.md>
+	"MD012",
+	# Line length
+	# <https://github.com/rvben/rumdl/blob/main/docs/md013.md>
+	"MD013",
+	# Commands show output
+	# <https://github.com/rvben/rumdl/blob/main/docs/md014.md>
+	"MD014",
+	# No space atx
+	# <https://github.com/rvben/rumdl/blob/main/docs/md018.md>
+	"MD018",
+	# Multiple space atx
+	# <https://github.com/rvben/rumdl/blob/main/docs/md019.md>
+	"MD019",
+	# No space closed atx
+	# <https://github.com/rvben/rumdl/blob/main/docs/md020.md>
+	"MD020",
+	# Multiple space closed atx
+	# <https://github.com/rvben/rumdl/blob/main/docs/md021.md>
+	"MD021",
+	# Blanks around headings
+	# <https://github.com/rvben/rumdl/blob/main/docs/md022.md>
+	"MD022",
+	# Heading start left
+	# <https://github.com/rvben/rumdl/blob/main/docs/md023.md>
+	"MD023",
+	# Multiple headings
+	# <https://github.com/rvben/rumdl/blob/main/docs/md024.md>
+	"MD024",
+	# Single title
+	# <https://github.com/rvben/rumdl/blob/main/docs/md025.md>
+	"MD025",
+	# No trailing punctuation
+	# <https://github.com/rvben/rumdl/blob/main/docs/md026.md>
+	"MD026",
+	# Multiple spaces blockquote
+	# <https://github.com/rvben/rumdl/blob/main/docs/md027.md>
+	"MD027",
+	# Blanks blockquote
+	# <https://github.com/rvben/rumdl/blob/main/docs/md028.md>
+	"MD028",
+	# OL prefix
+	# <https://github.com/rvben/rumdl/blob/main/docs/md029.md>
+	"MD029",
+	# List marker space
+	# <https://github.com/rvben/rumdl/blob/main/docs/md030.md>
+	"MD030",
+	# Blanks around fences
+	# <https://github.com/rvben/rumdl/blob/main/docs/md031.md>
+	"MD031",
+	# Blanks around lists
+	# <https://github.com/rvben/rumdl/blob/main/docs/md032.md>
+	"MD032",
+	# No inline HTML
+	# <https://github.com/rvben/rumdl/blob/main/docs/md033.md>
+	"MD033",
+	# No bare URLs
+	# <https://github.com/rvben/rumdl/blob/main/docs/md034.md>
+	"MD034",
+	# HR style
+	# <https://github.com/rvben/rumdl/blob/main/docs/md035.md>
+	"MD035",
+	# No emphasis as heading
+	# <https://github.com/rvben/rumdl/blob/main/docs/md036.md>
+	"MD036",
+	# Spaces around emphasis
+	# <https://github.com/rvben/rumdl/blob/main/docs/md037.md>
+	"MD037",
+	# No space in code
+	# <https://github.com/rvben/rumdl/blob/main/docs/md038.md>
+	"MD038",
+	# No space in links
+	# <https://github.com/rvben/rumdl/blob/main/docs/md039.md>
+	"MD039",
+	# Fenced code language
+	# <https://github.com/rvben/rumdl/blob/main/docs/md040.md>
+	"MD040",
+	# First line h1
+	# <https://github.com/rvben/rumdl/blob/main/docs/md041.md>
+	"MD041",
+	# No empty links
+	# <https://github.com/rvben/rumdl/blob/main/docs/md042.md>
+	"MD042",
+	# Required headings
+	# <https://github.com/rvben/rumdl/blob/main/docs/md043.md>
+	"MD043",
+	# Proper names
+	# <https://github.com/rvben/rumdl/blob/main/docs/md044.md>
+	"MD044",
+	# No alt text
+	# <https://github.com/rvben/rumdl/blob/main/docs/md045.md>
+	"MD045",
+	# Code block style
+	# <https://github.com/rvben/rumdl/blob/main/docs/md046.md>
+	"MD046",
+	# File end newline
+	# <https://github.com/rvben/rumdl/blob/main/docs/md047.md>
+	"MD047",
+	# Code fence style
+	# <https://github.com/rvben/rumdl/blob/main/docs/md048.md>
+	"MD048",
+	# Emphasis style
+	# <https://github.com/rvben/rumdl/blob/main/docs/md049.md>
+	"MD049",
+	# Strong style
+	# <https://github.com/rvben/rumdl/blob/main/docs/md050.md>
+	"MD050",
+	# Link fragments
+	# <https://github.com/rvben/rumdl/blob/main/docs/md051.md>
+	"MD051",
+	# Reference links images
+	# <https://github.com/rvben/rumdl/blob/main/docs/md052.md>
+	"MD052",
+	# Link image definitions
+	# <https://github.com/rvben/rumdl/blob/main/docs/md053.md>
+	"MD053",
+	# Link image style
+	# <https://github.com/rvben/rumdl/blob/main/docs/md054.md>
+	"MD054",
+	# Table pipe style
+	# <https://github.com/rvben/rumdl/blob/main/docs/md055.md>
+	"MD055",
+	# Table column count
+	# <https://github.com/rvben/rumdl/blob/main/docs/md056.md>
+	"MD056",
+	# Relative links
+	# <https://github.com/rvben/rumdl/blob/main/docs/md057.md>
+	"MD057",
+	# Table spacing
+	# <https://github.com/rvben/rumdl/blob/main/docs/md058.md>
+	"MD058",
+	# Link text
+	# <https://github.com/rvben/rumdl/blob/main/docs/md059.md>
+	"MD059",
+	# Table format
+	# <https://github.com/rvben/rumdl/blob/main/docs/md060.md>
+	"MD060"
+]
+
+[per-file-ignores]
+"LICENSE_CC0-1.0.md" = ["MD050"]
+
+# Heading style
+# <https://github.com/rvben/rumdl/blob/main/docs/md003.md>
+[MD003]
+# Use # symbols
+style = "atx"
+
+# UL style
+# <https://github.com/rvben/rumdl/blob/main/docs/md004.md>
+[MD004]
+# Always use - markers
+style = "dash"
+
+# UL indent
+# <https://github.com/rvben/rumdl/blob/main/docs/md007.md>
+[MD007]
+# The number of spaces to use for each level of list nesting
+indent = 2
+# When `true`, allows the first level of lists to be indented instead of
+# starting at column 0
+start_indented = false
+# When `start_indented` is `true`, this specifies how many spaces the first
+# level should be indented
+start_indent = 2
+
+# No trailing spaces
+# <https://github.com/rvben/rumdl/blob/main/docs/md009.md>
+[MD009]
+# Number of spaces for hard line breaks
+br_spaces = 2
+# Remove all trailing spaces, even line breaks
+strict = false
+
+# No hard tabs
+# <https://github.com/rvben/rumdl/blob/main/docs/md010.md>
+[MD010]
+# How many spaces to use when replacing each tab character
+spaces_per_tab = 2
+
+# No multiple blanks
+# <https://github.com/rvben/rumdl/blob/main/docs/md012.md>
+[MD012]
+# Maximum number of consecutive blank lines allowed
+maximum = 1
+
+# Line length
+# <https://github.com/rvben/rumdl/blob/main/docs/md013.md>
+[MD013]
+# The maximum number of characters allowed per line
+line_length = 80
+# Whether to check line length in code blocks
+code_blocks = true
+# Whether to check line length in tables
+tables = false
+# Whether to check line length in headings
+headings = true
+# Whether to check line length in regular text/paragraphs
+paragraphs = true
+# When true, disables exceptions for URLs and other special content
+strict = false
+# When true, enables automatic text reflow to wrap long lines intelligently
+reflow = true
+# Controls how text is reflowed when `reflow` is true
+reflow_mode = "default"
+
+# Blanks around headings
+# <https://github.com/rvben/rumdl/blob/main/docs/md022.md>
+[MD022]
+# Blank lines required above headings
+lines_above = 1
+# Blank lines required below headings
+lines_below = 1
+
+# Multiple headings
+# <https://github.com/rvben/rumdl/blob/main/docs/md024.md>
+[MD024]
+# Allow duplicates at different levels
+allow_different_nesting = false
+# Only check siblings at same level
+siblings_only = false
+
+# Single title
+# <https://github.com/rvben/rumdl/blob/main/docs/md025.md>
+[MD025]
+# The heading level that should be unique
+level = 1
+# Name of the front matter title field
+front_matter_title = "title"
+
+# No trailing punctuation
+# <https://github.com/rvben/rumdl/blob/main/docs/md026.md>
+[MD026]
+# Characters to remove from heading endings
+punctuation = ".,;:!"
+
+# OL prefix
+# <https://github.com/rvben/rumdl/blob/main/docs/md029.md>
+[MD029]
+# How to number list items
+style = "ordered"
+
+# List marker space
+# <https://github.com/rvben/rumdl/blob/main/docs/md030.md>
+[MD030]
+# Spaces after bullet for single-line items
+ul_single = 1
+# Spaces after number for single-line items
+ol_single = 1
+# Spaces after bullet for multi-line items
+ul_multi = 1
+# Spaces after number for multi-line items
+ol_multi = 1
+
+# Blanks around fences
+# <https://github.com/rvben/rumdl/blob/main/docs/md031.md>
+[MD031]
+# Also require blank lines in lists
+list_items = true
+
+# No inline HTML
+# <https://github.com/rvben/rumdl/blob/main/docs/md033.md>
+[MD033]
+# List of allowed HTML tags
+allowed_elements = ["br"]
+
+# HR style
+# <https://github.com/rvben/rumdl/blob/main/docs/md035.md>
+[MD035]
+# Choose your preferred style
+style = "---"
+
+# No emphasis as heading
+# <https://github.com/rvben/rumdl/blob/main/docs/md036.md>
+[MD036]
+# Configure punctuation checking
+punctuation = ".,;:!?"
+
+# First line h1
+# <https://github.com/rvben/rumdl/blob/main/docs/md041.md>
+[MD041]
+# Heading level required
+level = 1
+# Front matter field to use as title
+front_matter_title = "title"
+# Regex pattern to match title fields in front matter
+front_matter_title_pattern = "^(title|header):"
+
+# Required headings
+# <https://github.com/rvben/rumdl/blob/main/docs/md043.md>
+[MD043]
+# Required heading patterns
+headings = []
+# Case-sensitive matching
+match_case = false
+
+# Proper names
+# <https://github.com/rvben/rumdl/blob/main/docs/md044.md>
+[MD044]
+# List of properly capitalized names
+names = []
+# Check inside code blocks
+code_blocks = false
+# Check inside HTML elements
+html_elements = true
+# Check inside HTML comments
+html_comments = true
+
+# No alt text
+# <https://github.com/rvben/rumdl/blob/main/docs/md045.md>
+[MD045]
+# Text to insert for missing alt text
+placeholder_text = ""
+
+# Code block style
+# <https://github.com/rvben/rumdl/blob/main/docs/md046.md>
+[MD046]
+# Block style
+style = "fenced"
+
+# Code fence style
+# <https://github.com/rvben/rumdl/blob/main/docs/md048.md>
+[MD048]
+# Code fence style
+style = "backtick"
+
+# Emphasis style
+# <https://github.com/rvben/rumdl/blob/main/docs/md049.md>
+[MD049]
+# Emphasis style
+style = "underscore"
+
+# Strong style
+# <https://github.com/rvben/rumdl/blob/main/docs/md050.md>
+[MD050]
+# Strong style
+style = "asterisk"
+
+# Link fragments
+# <https://github.com/rvben/rumdl/blob/main/docs/md051.md>
+[MD051]
+# Anchor generation style
+anchor_style = "github"
+
+# Link image definitions
+# <https://github.com/rvben/rumdl/blob/main/docs/md053.md>
+[MD053]
+# List of reference names to keep even if unused
+ignored_definitions = []
+
+# Table pipe style
+# <https://github.com/rvben/rumdl/blob/main/docs/md055.md>
+[MD055]
+# Table pipe style
+style = "leading_and_trailing"
+
+# Table spacing
+# <https://github.com/rvben/rumdl/blob/main/docs/md058.md>
+[MD058]
+# Blank lines before table
+minimum_before = 1
+# Blank lines after table
+minimum_after = 1
+
+# Link text
+# <https://github.com/rvben/rumdl/blob/main/docs/md059.md>
+[MD059]
+# List of prohibited link text phrases (case-insensitive)
+prohibited_texts = ["click here", "here", "link", "more"]
+
+# Table format
+# <https://github.com/rvben/rumdl/blob/main/docs/md060.md>
+[MD060]
+# Whether to enable MD060 table formatting
+enabled = true
+# Columns are padded with spaces for visual alignment
+style = "aligned"
+# Maximum table width before auto-switching to compact mode
+max-width = 999
